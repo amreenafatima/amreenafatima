@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href= "portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/d712c8ae14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id = "header">
+    <div class = "container">
+        <nav>
+            <img class ="logo"src="C:\Users\HP\Desktop\2logo.png">
+            <ul id ="sidemenu">
+                <li><a href ="#header">HOME</a></li>
+                <li><a href ="#about">ABOUT</a></li>
+                <li><a href ="#services">EDUCATION</a></li>
+                <li><a href ="#portfolio">EXPERIENCE</a></li>
+                <li><a href ="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class ="header-text">
+            <p>TEACHER</p>
+            <h1>Hi, I'm <span>Amreena Fatima</span></h1>
+        </div>
+    </div>
+ </div>
+ <!-----about---->
+ <div id ="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src = "C:\Users\HP\Desktop\portfolio img\IMG_20190515_095944.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>Hello! My name is Amreena Fatima, and I am a passionate professional from Allahabad, Uttar Pradesh, India.<br> I hold a Bachelor's degree in Information Technology (B.Tech IT) and have amassed valuable experience in the field of IT Support over the past 3 years.<br> Additionally, I have also spent 2 years as a dedicated and enthusiastic teacher, making a positive impact on young minds.
+                    .<br>Thank you for considering my profile, and I look forward to the opportunity to contribute my dedication and enthusiasm to your esteemed organization.
+                </p>
+                <div class ="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                    <p class="tab-links"onclick="opentab('experience')">EXPERIENCE</p>
+                    <p class="tab-links"onclick="opentab('education')">EDUCATION</p>
+                </div>
+                <div class ="tab-contents active-tab" id="skills">
+                    <ul>
+                    <li><span>HTML5</span><br>Designing webapp interfaces</li>
+                    <li><span>CSS3</span><br>Designing webapp interfaces</li>
+                    <li><span>Python</span><br>Designing webapp interfaces</li>   
+                    <li><span>Miccrosoft Word/Excel</span><br>Designing webapp interfaces</li>
+                    </ul>
+                </div>
+                <div class ="tab-contents" id ="experience">
+                    <ul>
+                    <li><span>IT SUPPORT</span><br>Just Ride Tours And Travel Pvt Ltd</li>
+                    <li><span>Bangalore</span><br>2014 - 2017</li>
+                    <li><span>Teaching Experience</span><br>2021 - 2023</li>   
+                    </ul>
+                </div>
+                <div class ="tab-contents" id ="education">
+                    <ul>
+                    <li><span>B.TECH IN Information Technology</span><br>2009 - 2013 SECURE 75%</li>
+                    <li><span>12th From ICSE</span><br>2008 -2009 SECURE 80%</li>
+                    <li><span>10th From ICSE</span><br>2007 - 2008 Secure 65%</li>   
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-------services----->
+ <div id ="services">
+    <div class = "container">
+        <h1 class="sub-title">My Services</h1>
+         <div class="services-list">
+        <div><i class="fa-solid fa-code"></i>
+             <h2> Web Design</h2>
+             <p>cbdihc iewbcqw jcbqjbjw ebdubwdwd</p>
+             <a href="#">Learn more</a>
+        </div>
+        <div> <i class="fa-solid fa-crop"></i>
+            <h2> Web Design</h2>
+            <p>cjwhduwedbcbcwuedgbuwbxh</p>
+            <a href="#">Learn more</a>
+        </div>
+            <div> <i class="fa-brands fa-app-store-ios"></i>
+            <h2> Web Design</h2>
+            <p>nmdewihdiewbhcehbgduwhdbdh </p>
+            <a href="#">Learn more</a>
+            </div>
+         </div>
+    </div>
+ </div>
+ <!-----------------portfolio------------------------->
+ <div id ="portfolio">
+    <div class ="container">
+        <h1 class = "sub-title"></h1>
+        <div class ="work-list">
+            <div class="work">
+                <img src ="C:\Users\HP\Desktop\portfolio img\work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>bjek dudgue gdbuwdb vdwhdv bh jgbv hjg 
+                        bdm jbdb</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="C:\Users\HP\Desktop\portfolio img\work-2.png">
+                <div class="layer">
+                    <h3>Mobile App</h3>
+                    <p>bjek dudgue gdbuwdb vdwhdv bh jgbv hjg 
+                        bdm jbdb</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src ="C:\Users\HP\Desktop\portfolio img\work-3.png">
+                <div class="layer">
+                    <h3>Online  App</h3>
+                    <p>bjek dudgue gdbuwdb vdwhdv bh jgbv hjg 
+                        bdm jbdb</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+ <!------------------contact------------------------------->
+ <div id ="contact">
+    <div class="container">
+    <div class ="row">
+        <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-phone"></i>+91 8081649648</p>
+        <p><i class="fa-solid fa-paper-plane"></i>amreenaf4@gmail.com</p>
+        <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="C:\Users\HP\Desktop\portfolio img\resumeAmreena.pdf" downlaod class="btn btn2">Downlaod Cv</a>
+        </div>
+    <div class="contact-right">
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name = "email" placeholder="Your email" required>
+            <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+            <button type = "submit" class="btn btn2">Submit</button>
+        </form>
+    </div>
+    </div>
+ </div>
+ <div class = "copyright">
+    <p>Copyright made  <i class="fa-solid fa-heart"></i> by Amreena Fatima</p>
+ </div>
+ </div>
+ <script>
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tablink.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+ </script>
+ <script>
+     
+     var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+       sidemenu.style.right = "0";
+    }
+    function closemenu(){
+       sidemenu.style.right = "-200px";
+    }
+    
+ </script>
+</body>
+</html>
